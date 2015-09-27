@@ -30,3 +30,7 @@ Options:
 -s host               Start the TUIO server with the specified host
 -p port               Start the TUIO server on the specified port
 ```
+
+x11pressure
+-----------
+A simple program that attempts to grab & print the pressure used on a touchscreen/tablet (Basically grabs the 3rd valuator from an XI_Motion event). Works with GfxTablet, Idk about anything else because I don't have any other pressure-sensitive screens to test with :P
